@@ -1,0 +1,36 @@
+MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Building the projects in this solution one at a time. To enable parallel build, please add the "-m" switch.
+Build started 12/16/2022 11:39:51 AM.
+Project "E:\work\MSBuildRestore\MSBuildRestore.sln" on node 1 (Restore target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+_GetAllRestoreProjectPathItems:
+  Determining projects to restore...
+Restore:
+  X.509 certificate chain validation will use the default trust store selected by .NET.
+  Restoring packages for E:\work\MSBuildRestore\ClassLibrary.csproj...
+    CACHE https://api.nuget.org/v3-flatcontainer/mathnet.numerics/index.json
+    CACHE https://api.nuget.org/v3-flatcontainer/mathnet.numerics/5.0.0/mathnet.numerics.5.0.0.nupkg
+  Installed MathNet.Numerics 5.0.0 from https://api.nuget.org/v3/index.json with content hash pg1W2VwaEQMAiTpGK840hZgzavnqjlCMTVSbtVCXVyT+7AX4mc1o89SPv4TBlAjhgCOo9c1Y+jZ5m3ti2YgGgA==.
+  Generating MSBuild file E:\work\MSBuildRestore\obj\ClassLibrary.csproj.nuget.g.props.
+  Generating MSBuild file E:\work\MSBuildRestore\obj\ClassLibrary.csproj.nuget.g.targets.
+  Writing assets file to disk. Path: E:\work\MSBuildRestore\obj\project.assets.json
+  Restored E:\work\MSBuildRestore\ClassLibrary.csproj (in 974 ms).
+  
+  NuGet Config files used:
+      C:\Users\Mefi\AppData\Roaming\NuGet\NuGet.Config
+      C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.Offline.config
+  
+  Feeds used:
+      https://api.nuget.org/v3/index.json
+      C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+  
+  Installed:
+      1 package(s) to E:\work\MSBuildRestore\ClassLibrary.csproj
+Done Building Project "E:\work\MSBuildRestore\MSBuildRestore.sln" (Restore target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.75
